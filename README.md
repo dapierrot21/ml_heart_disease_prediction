@@ -24,3 +24,17 @@ In the future, I plan to explore additional feature engineering techniques and m
 
 # Conclusion
 This project is an exciting opportunity for me to gain valuable experience in the end-to-end machine learning project workflow, from data cleaning and preprocessing to model selection and evaluation. I look forward to updating this repository with my progress and sharing my findings with the community.
+
+
+# How to view the notebook locally
+1. Install Python on your computer (if not already installed).
+2. Install pip (if not already installed) using the command: python -m ensurepip --default-pip
+3. Install virtual environment using the command: pip install virtualenv
+4. Clone the repository using the command: git clone <repository_url>
+5. Navigate to the cloned repository on your local machine using the terminal or command prompt.
+6. Create a virtual environment using the command: virtualenv venv (this will create a new directory called venv).
+7. Activate the virtual environment using the command: source venv/bin/activate (for Linux/MacOS) or venv\Scripts\activate (for Windows).
+8. Install the required packages from the requirements.txt file using the command: pip install -r requirements.txt
+9. Launch Jupyter Notebook using the command: jupyter notebook
+10. Your browser should automatically open a new tab at the Jupyter Notebook dashboard. If not, open your browser and go to http://localhost:8888/tree.
+11. Navigate to the folder where the notebook file is located and open it.
